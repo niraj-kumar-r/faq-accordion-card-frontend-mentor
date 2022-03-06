@@ -3,9 +3,6 @@ body {
     font-size: 12px;
     font-family: "Kumbh Sans", sans-serif;
 
-    background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
-    background-repeat: no-repeat;
-
     --primary-normal: hsl(238, 29%, 16%);
     --primary-highlight: hsl(14, 88%, 65%);
 
@@ -13,6 +10,11 @@ body {
     --neutral-highlight: hsl(240, 6%, 50%);
 
     --divider-color: hsl(240, 6%, 50%);
+
+    color: var(--primary-normal);
+
+    background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    background-repeat: no-repeat;
 
     display: flex;
     flex-direction: column;
@@ -55,9 +57,18 @@ body {
 
 .main-wrapper {
     padding: 1.5rem;
-    padding-top: 8.75rem;
+    padding-top: 8.5rem;
+    /* background-color: blue; */
 }
 
 .faq {
+    margin-top: 0;
     text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    /* background-color: red; */
+}
+
+.faq-answers {
+    color: var(--neutral-highlight);
 }
