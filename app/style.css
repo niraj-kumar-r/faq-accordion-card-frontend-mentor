@@ -21,17 +21,29 @@ body {
 
 .wrapper {
     background-color: white;
+    margin-top: 9.25rem;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
-    width: clamp(20.56em, 88vw, 57.625em);
+    position: relative;
+
+    width: clamp(20.56rem, 88vw, 57.625rem);
 
     border-radius: 2em;
 }
 
+.svg-div {
+    position: relative;
+}
+
+.main-woman-svg {
+    position: relative;
+}
+
 .bg-svg {
     border: solid 1rem red;
+    /* position: absolute; */
 }
