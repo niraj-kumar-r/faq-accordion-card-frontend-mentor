@@ -19,7 +19,7 @@ body {
     align-items: center;
 }
 
-.main-wrapper {
+.wrapper {
     background-color: white;
 
     display: flex;
@@ -28,4 +28,10 @@ body {
     align-items: center;
 
     width: clamp(20.56em, 88vw, 57.625em);
+
+    border-radius: 2em;
+}
+
+.bg-svg {
+    border: solid 1rem red;
 }
