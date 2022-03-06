@@ -52,3 +52,12 @@ body {
     position: absolute;
     transform: translateY(100%);
 }
+
+.main-wrapper {
+    padding: 1.5rem;
+    padding-top: 8.75rem;
+}
+
+.faq {
+    text-align: center;
+}
