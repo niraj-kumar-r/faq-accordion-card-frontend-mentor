@@ -9,7 +9,7 @@ body {
     --neutral-bold: hsl(237, 12%, 33%);
     --neutral-highlight: hsl(240, 6%, 50%);
 
-    --divider-color: hsl(240, 6%, 50%);
+    --divider-color: hsl(240, 5%, 91%);
 
     color: var(--primary-normal);
 
@@ -82,4 +82,9 @@ body {
 
 .faq-answers {
     color: var(--neutral-highlight);
+}
+
+.divider {
+    height: 1px;
+    background-color: var(--divider-color);
 }
