@@ -75,6 +75,11 @@ body {
     align-items: center;
 }
 
+.faq-questions:hover,
+.faq-questions:focus {
+    color: var(--primary-highlight);
+}
+
 .faq-answers {
     color: var(--neutral-highlight);
 }
