@@ -36,14 +36,19 @@ body {
 }
 
 .svg-div {
-    position: relative;
-}
+    width: 15rem;
+    position: absolute;
+    top: 0;
+    transform: translateY(-60%);
 
-.main-woman-svg {
-    position: relative;
+    display: flex;
+    justify-content: center;
+
+    /* border: dotted 0.1rem violet; */
 }
 
 .bg-svg {
-    border: solid 1rem red;
-    /* position: absolute; */
+    /* border: solid 0.1rem red; */
+    position: absolute;
+    transform: translateY(100%);
 }
