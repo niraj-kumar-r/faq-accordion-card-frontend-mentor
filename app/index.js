@@ -37,18 +37,3 @@ for (let childQuestion of questionNode) {
         }
     };
 }
-
-if (document.documentElement.clientWidth > 768) {
-    document.querySelector(".bg-svg").src = "images/bg-pattern-desktop.svg";
-    document.querySelector(".main-woman-svg").src =
-        "images/illustration-woman-online-desktop.svg";
-
-    // let cube = document.createElement("img");
-    // cube.src = "images/illustration-box-desktop.svg";
-    // cube.alt = "a cube";
-    // cube.className = "cube-svg";
-
-    // document.querySelector(".svg-div").appendChild(cube);
-
-    console.log("changed");
-}

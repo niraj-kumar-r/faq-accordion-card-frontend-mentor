@@ -53,8 +53,9 @@ body {
 
         display: flex;
         justify-content: center;
-
-        /* border: dotted 0.1rem violet; */
+    }
+    .main-woman-svg {
+        width: 15rem;
     }
 
     .bg-svg {

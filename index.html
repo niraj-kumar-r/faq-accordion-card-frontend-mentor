@@ -48,17 +48,27 @@
                 class="cube-svg"
             />
             <div class="svg-div">
-                <img
-                    src="images/bg-pattern-mobile.svg"
-                    alt="bg-pattern"
-                    class="bg-svg"
-                />
-
-                <img
-                    src="images/illustration-woman-online-mobile.svg"
-                    alt="illustration-woman"
-                    class="main-woman-svg"
-                />
+                <picture class="bg-svg">
+                    <source
+                        media="(min-width: 768px)"
+                        srcset="images/bg-pattern-desktop.svg"
+                        alt="bg-pattern"
+                    />
+                    <img src="images/bg-pattern-mobile.svg" alt="bg-pattern" />
+                </picture>
+                <picture>
+                    <source
+                        media="(min-width: 768px)"
+                        srcset="images/illustration-woman-online-desktop.svg"
+                        alt="illustration-woman"
+                        class="main-woman-svg"
+                    />
+                    <img
+                        src="images/illustration-woman-online-mobile.svg"
+                        alt="illustration-woman"
+                        class="main-woman-svg"
+                    />
+                </picture>
             </div>
             <main class="main-wrapper">
                 <h1 class="faq">FAQ</h1>
