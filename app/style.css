@@ -74,17 +74,20 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    cursor: pointer;
 }
 
-.faq-questions:hover,
+/* .faq-questions:hover,
 .faq-questions:focus {
     color: var(--primary-highlight);
-}
+} */
 
 .faq-answers {
     color: var(--neutral-highlight);
     opacity: 0;
-    height: 0;
+    height: 0px;
+    margin: 0;
 }
 
 .divider {
