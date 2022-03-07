@@ -96,3 +96,6 @@ body {
     height: 1px;
     background-color: var(--divider-color);
 }
+
+@media (min-width= 56.25rem) {
+}
