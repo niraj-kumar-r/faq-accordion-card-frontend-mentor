@@ -44,7 +44,7 @@ body {
         0px 41.8px 22.1px rgba(0, 0, 0, 0.029),
         0px 100px 53px rgba(0, 0, 0, 0.04);
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .svg-div {
         width: 15rem;
         position: absolute;
@@ -59,7 +59,6 @@ body {
     }
 
     .bg-svg {
-        /* border: solid 0.1rem red; */
         position: absolute;
         transform: translateY(100%);
         z-index: -1;
@@ -69,10 +68,7 @@ body {
     }
 }
 .main-wrapper {
-    /* padding: 1.5rem;
-    padding-top: 8.5rem; */
     padding: 8.5rem 1.5rem 3rem;
-    /* background-color: blue; */
 }
 
 .faq {
@@ -80,7 +76,6 @@ body {
     text-align: center;
     font-size: 2rem;
     font-weight: 700;
-    /* background-color: red; */
 }
 
 .faq-questions {
@@ -90,11 +85,6 @@ body {
 
     cursor: pointer;
 }
-
-/* .faq-questions:hover,
-.faq-questions:focus {
-    color: var(--primary-highlight);
-} */
 
 .faq-answers {
     color: var(--neutral-highlight);
@@ -111,7 +101,6 @@ body {
 @media screen and (min-width: 768px) {
     .wrapper {
         flex-direction: row;
-        /* align-items: stretch; */
     }
     .main-wrapper {
         padding: 4.7rem 6rem 5.5rem 1rem;
