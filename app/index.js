@@ -1,6 +1,6 @@
-questionNode = document.querySelectorAll(".faq-questions");
 //even empty space is treated as sibling, so always use nextElementSibling
 
+questionNode = document.querySelectorAll(".faq-questions");
 for (let childQuestion of questionNode) {
     childQuestion.onmouseover = (event) => {
         childQuestion.style.color = "var(--primary-highlight)";
@@ -37,8 +37,6 @@ for (let childQuestion of questionNode) {
         }
     };
 }
-
-console.log(document.documentElement.clientWidth);
 
 if (document.documentElement.clientWidth > 768) {
     document.querySelector(".bg-svg").src = "images/bg-pattern-desktop.svg";
