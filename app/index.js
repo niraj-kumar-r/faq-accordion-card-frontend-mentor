@@ -2,9 +2,13 @@ questionNode = document.querySelectorAll(".faq-questions");
 //even empty space is treated as sibling, so always use nextElementSibling
 
 for (let childQuestion of questionNode) {
-    // childQuestion.mouseover = (event) => {
-    //     childQuestion.style.color = "var(--primary-highlight)";
-    // };
+    childQuestion.onmouseover = (event) => {
+        childQuestion.style.color = "var(--primary-highlight)";
+    };
+
+    childQuestion.onmouseout = (event) => {
+        childQuestion.style.color = "var(--neutral-bold)";
+    };
     childQuestion.onclick = (event) => {
         console.log(childQuestion.nextElementSibling.style.opacity, "opacity");
         if (childQuestion.nextElementSibling.style.opacity == "1") {
