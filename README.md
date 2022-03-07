@@ -55,5 +55,5 @@ Users should be able to:
 <!-- -   Website - [Add your name here](https://www.your-site.com) -->
 
 -   Frontend Mentor - [@niraj-kumar-r](https://www.frontendmentor.io/profile/niraj-kumar-r)
--   Twitter - [@niraj-kumar-r](https://twitter.com/niraj_kumar_r)
+-   Twitter - [@niraj_kumar_r](https://twitter.com/niraj_kumar_r)
 -   Linked In - [@niraj-kumar-r](https://www.linkedin.com/in/niraj-kumar-r/)
