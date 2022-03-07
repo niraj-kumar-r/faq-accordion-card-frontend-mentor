@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Check My Solution on Frontend Mentor](#author)
+-   Solution URL: [Check My Solution on Frontend Mentor](https://www.frontendmentor.io/solutions/my-first-webpage-with-js-y6PuipE1P)
 -   Live Site URL: [FAQ accordion card](https://niraj-faq-accordion-card.netlify.app/)
 
 ## My process
