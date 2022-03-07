@@ -104,5 +104,37 @@ body {
 @media screen and (min-width: 768px) {
     .wrapper {
         flex-direction: row;
+        /* align-items: flex-start; */
+    }
+    .main-wrapper {
+        padding-top: 4.7rem;
+        width: 50%;
+    }
+
+    .svg-div {
+        position: relative;
+        width: 50%;
+    }
+    .main-woman-svg {
+        position: absolute;
+        width: 100%;
+        left: -15%;
+        transform: translateY(-50%);
+
+        /* top: ; */
+    }
+    .cube-svg {
+        position: absolute;
+        border: solid 2px black;
+        z-index: 2;
+        transform: translateY(-25%) translateX(-50%);
+    }
+
+    .bg-svg {
+        position: absolute;
+        border: solid 2px red;
+        left: 85%;
+        transform: translateY(-50%) translateX(-100%);
+        width: max-content;
     }
 }
