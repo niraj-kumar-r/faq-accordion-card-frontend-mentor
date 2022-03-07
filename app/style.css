@@ -55,8 +55,11 @@ body {
     /* border: solid 0.1rem red; */
     position: absolute;
     transform: translateY(100%);
+    z-index: -1;
 }
-
+.cube-svg {
+    display: none;
+}
 .main-wrapper {
     /* padding: 1.5rem;
     padding-top: 8.5rem; */
@@ -95,7 +98,4 @@ body {
 .divider {
     height: 1px;
     background-color: var(--divider-color);
-}
-
-@media (min-width= 56.25rem) {
 }
