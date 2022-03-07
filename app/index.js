@@ -40,7 +40,7 @@ for (let childQuestion of questionNode) {
 
 console.log(document.documentElement.clientWidth);
 
-if (document.documentElement.clientWidth > 900) {
+if (document.documentElement.clientWidth > 768) {
     document.querySelector(".bg-svg").src = "images/bg-pattern-desktop.svg";
     document.querySelector(".main-woman-svg").src =
         "images/illustration-woman-online-desktop.svg";
