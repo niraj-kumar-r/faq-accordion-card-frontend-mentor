@@ -37,6 +37,12 @@ body {
     width: clamp(20.56rem, 88vw, 57.625rem);
 
     border-radius: 2em;
+    box-shadow: 0px 2.8px 1.5px rgba(0, 0, 0, 0.011),
+        0px 6.7px 3.5px rgba(0, 0, 0, 0.016),
+        0px 12.5px 6.6px rgba(0, 0, 0, 0.02),
+        0px 22.3px 11.8px rgba(0, 0, 0, 0.024),
+        0px 41.8px 22.1px rgba(0, 0, 0, 0.029),
+        0px 100px 53px rgba(0, 0, 0, 0.04);
 }
 @media screen and (max-width: 768px) {
     .svg-div {
@@ -108,14 +114,18 @@ body {
     }
     .main-wrapper {
         padding: 4.7rem 6rem 5.5rem 1rem;
-        width: 50%;
+        width: 40%;
+    }
+
+    .faq {
+        text-align: left;
+        margin-bottom: 1.8rem;
     }
 
     .svg-div {
         position: relative;
-        width: 50%;
+        width: 60%;
         align-self: stretch;
-        /* height: 10rem; */
         overflow: hidden;
     }
     .main-woman-svg {
@@ -127,7 +137,6 @@ body {
     }
     .cube-svg {
         position: absolute;
-        border: solid 2px black;
         z-index: 2;
         top: 50%;
         left: -10%;
@@ -137,7 +146,6 @@ body {
 
     .bg-svg {
         position: absolute;
-        border: solid 2px red;
         left: 85%;
         top: 50%;
         transform: translateY(-50%) translateX(-100%);
