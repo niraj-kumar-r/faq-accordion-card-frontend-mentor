@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![finished-desktop](design/finished-mobile.png)
+![finished-desktop](design/finished-desktop.png)
 
 ![finished-mobile](design/finished-mobile.png)
 
