@@ -7,10 +7,13 @@ for (let childQuestion of questionNode) {
     };
 
     childQuestion.onmouseout = (event) => {
-        childQuestion.style.color = "var(--neutral-bold)";
+        childQuestion.style.color =
+            childQuestion.nextElementSibling.style.opacity == "1"
+                ? "var(--primary-normal)"
+                : "var(--neutral-bold)";
     };
     childQuestion.onclick = (event) => {
-        console.log(childQuestion.nextElementSibling.style.opacity, "opacity");
+        // console.log(childQuestion.nextElementSibling.style.opacity, "opacity");
         if (childQuestion.nextElementSibling.style.opacity == "1") {
             childQuestion.nextElementSibling.style.opacity = "0";
             childQuestion.nextElementSibling.style.height = "0px";
@@ -20,7 +23,7 @@ for (let childQuestion of questionNode) {
 
             childQuestion.lastElementChild.style.transform = "rotateX(0deg)";
 
-            console.log("unclicked");
+            // console.log("unclicked");
         } else {
             childQuestion.nextElementSibling.style.opacity = "1";
             childQuestion.nextElementSibling.style.height = "auto";
@@ -30,7 +33,7 @@ for (let childQuestion of questionNode) {
 
             childQuestion.lastElementChild.style.transform = "rotateX(180deg)";
 
-            console.log("clicked");
+            // console.log("clicked");
         }
     };
 }
