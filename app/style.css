@@ -71,7 +71,6 @@ body {
 }
 
 .faq-questions {
-    font-size: 13px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -84,6 +83,8 @@ body {
 
 .faq-answers {
     color: var(--neutral-highlight);
+    opacity: 0;
+    height: 0;
 }
 
 .divider {
