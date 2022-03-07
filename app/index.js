@@ -18,6 +18,8 @@ for (let childQuestion of questionNode) {
             childQuestion.style.fontWeight = "400";
             childQuestion.style.color = "var(--neutral-bold)";
 
+            childQuestion.lastElementChild.style.transform = "rotateX(0deg)";
+
             console.log("unclicked");
         } else {
             childQuestion.nextElementSibling.style.opacity = "1";
@@ -25,6 +27,8 @@ for (let childQuestion of questionNode) {
             childQuestion.nextElementSibling.style.margin = "1em auto 1em";
             childQuestion.style.fontWeight = "700";
             childQuestion.style.color = "var(--primary-normal)";
+
+            childQuestion.lastElementChild.style.transform = "rotateX(180deg)";
 
             console.log("clicked");
         }
